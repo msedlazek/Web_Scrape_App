@@ -31,7 +31,7 @@ app.set("view engine", "handlebars");
 
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/week18homework");
+mongoose.connect("mongodb://heroku_sr936v8x:dbeecr5v13s1ga7o0l9krlf1ot@ds161190.mlab.com:61190/heroku_sr936v8x");
 var db = mongoose.connection;
 
 // Show any mongoose errors
